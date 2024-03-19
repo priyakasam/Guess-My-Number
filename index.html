@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Nmber</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <h1>Guess My Number!</h1>
+        <h3>Rules:</h3>
+          <li>Choose a Number from 1 to 100</li>
+          <li>Check your Number</li>
+          <li>Hints are displayed for a correct guess</li>
+          <li>Repeat until you get the number Correct</li>
+        <h3>Guess a Number from 1 to 100</h3>
+        <label for="">Your guess</label><br>
+        <br>
+        <input type="number" placeholder="Enter your Number"  id="n1">
+        <br>
+        <br>
+        
+        
+        <h3 id="res">Wait for the Result...</h3><br>
+        <h3 id="tries" style="margin-bottom:10px;">0</h3><br>
+        <br>
+        
+        <div id="btns">
+            <input type="submit" value="Check" onclick="checking() ">
+            <input type="submit" value="Reset" onclick="window.location.reload()">
+
+        </div>
+
+    </div>
+<script src="design.js"></script>
+    
+</body>
+</html>
